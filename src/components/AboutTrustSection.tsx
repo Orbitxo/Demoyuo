@@ -58,14 +58,6 @@ export const AboutTrustSection: React.FC<AboutTrustSectionProps> = ({ onOpenCall
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 mr-1.5 shrink-0 mt-0.5" />
                   <span>100% Confidential Client Privilege</span>
                 </div>
-                <div className="pt-1.5 border-t border-slate-200 text-center">
-                  <a
-                    href="#location-map-section"
-                    className="text-[#1B3B7D] font-bold text-[11px] hover:underline inline-flex items-center gap-1"
-                  >
-                    <span>View Bangalore Office Map & Location →</span>
-                  </a>
-                </div>
               </div>
 
             </div>

@@ -1,15 +1,18 @@
 import { ServiceItem, TestimonialItem, ProcessStep } from '../types';
 
 export const FIRM_CONFIG = {
-  name: 'Advocate Sridharan & Associates',
-  tagline: 'Bangalore Family Law & Custody Advocates',
+  name: 'Advocate Sridharan B.Com., LL.B., LL.M (UK) LLP',
+  shortName: 'Advocate Sridharan & Associates',
+  tagline: 'Bangalore Family Law, Divorce & Custody Advocates',
   phoneDisplay: '+91 98801 23456',
   phoneRaw: '+919880123456',
   secondaryPhone: '+91 80 4123 7890',
   whatsappRaw: '919880123456',
   email: 'consult@sridharanlaw.in',
   city: 'Bangalore',
-  address: 'Suite 402, 4th Floor, Prestige Meridian, MG Road (Near Family Court), Bangalore, Karnataka 560001',
+  address: 'Flat No. 028, Ground Floor, Block A, Garden Square Apartments, Vinayaka Layout, Next to Srivara Vistara Apartments, Subramanyapura, Bangalore – 560061, Karnataka',
+  shortAddress: 'Garden Square, Vinayaka Layout, Subramanyapura, Bangalore – 560061',
+  googleMapsShareUrl: 'https://share.google/HJqh4jWyb63zuQoyk',
   operatingHours: 'Mon – Sat: 8:30 AM – 8:30 PM | Urgent Cases: 24/7 Available by Phone',
   googleRating: '5.0',
   totalReviewsCount: '140+',

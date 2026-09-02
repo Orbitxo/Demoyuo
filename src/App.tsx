@@ -10,6 +10,7 @@ import { FinalCTASection } from './components/FinalCTASection';
 import { Footer } from './components/Footer';
 import { CallbackModal } from './components/CallbackModal';
 import { MobileStickyCallBar } from './components/MobileStickyCallBar';
+import { WhatsAppFloatingButton } from './components/WhatsAppFloatingButton';
 
 export default function App() {
   const [isCallbackOpen, setIsCallbackOpen] = useState(false);
@@ -49,7 +50,7 @@ export default function App() {
         {/* 6. About / Trust Section */}
         <AboutTrustSection onOpenCallback={() => handleOpenCallback()} />
 
-        {/* 7. Google Location Map Section */}
+        {/* 7. Google Location Map & Office Section */}
         <LocationMapSection onOpenCallback={() => handleOpenCallback()} />
 
         {/* 8. Final CTA Section (Full-width Navy) */}
@@ -58,6 +59,9 @@ export default function App() {
 
       {/* Footer */}
       <Footer onOpenCallback={() => handleOpenCallback()} />
+
+      {/* Floating WhatsApp Quick Action Button in Right Corner */}
+      <WhatsAppFloatingButton />
 
       {/* Sticky Mobile Call Bar for phone-first conversions */}
       <MobileStickyCallBar onOpenCallback={() => handleOpenCallback()} />

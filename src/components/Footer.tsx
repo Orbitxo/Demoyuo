@@ -54,22 +54,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCallback }) => {
                 </a>
               </li>
               <li>
-                <a href="#location-map-section" className="hover:text-white transition-colors">
-                  Bangalore Office & Location Map
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://share.google/HJqh4jWyb63zuQoyk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-white transition-colors flex items-center gap-1"
-                >
-                  <span>Google Maps Directions</span>
-                  <span className="text-[10px] text-[#F15B4C]">↗</span>
-                </a>
-              </li>
-              <li>
                 <button
                   type="button"
                   onClick={onOpenCallback}
@@ -105,6 +89,25 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCallback }) => {
                   {FIRM_CONFIG.operatingHours}
                 </span>
               </div>
+            </div>
+
+            <div className="pt-2 flex flex-wrap gap-2">
+              <a
+                href="#location-section"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white/10 hover:bg-white/20 text-white rounded-lg text-xs font-semibold transition-colors"
+              >
+                <MapPin className="w-3.5 h-3.5 text-[#F15B4C]" />
+                <span>View Google Map & Directions</span>
+              </a>
+              <a
+                href={`https://wa.me/${FIRM_CONFIG.whatsappRaw}?text=${encodeURIComponent('Hello Advocate Sridharan, I would like to consult confidentially regarding a family law matter in Bangalore.')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#25D366]/20 hover:bg-[#25D366]/30 text-[#25D366] border border-[#25D366]/40 rounded-lg text-xs font-bold transition-colors"
+              >
+                <span className="w-2 h-2 rounded-full bg-[#25D366]"></span>
+                <span>Chat on WhatsApp</span>
+              </a>
             </div>
           </div>
 
